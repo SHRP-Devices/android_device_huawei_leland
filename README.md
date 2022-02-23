@@ -32,6 +32,7 @@ The Honor 9 Lite (codenamed "leland") is a mid-range smartphone from Huawei. It 
 
 Works:
 
+- MTP
 - ADB
 - Flashing (opengapps, roms, images and so on)
 - Backup/Restore
@@ -39,7 +40,6 @@ Works:
 
 TO-DO:
 
-- MTP
 - Decryption of /Data
 - Format of /Data
 - Vibration support
