@@ -27,6 +27,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_NAME := omni_leland
 PRODUCT_DEVICE := leland
-PRODUCT_BRAND := Honor
-PRODUCT_MODEL := 9 Lite
+PRODUCT_BRAND := Huawei
+PRODUCT_MODEL := Honor 9 Lite
 PRODUCT_MANUFACTURER := Huawei
