@@ -1,5 +1,5 @@
 # System partitions
-/cache			ext4	/dev/block/platform/hi_mci.0/by-name/cache		flags=backup=1;display="Cache";wipeingui
+/cache			ext4	/dev/block/platform/hi_mci.0/by-name/cache		flags=backup=1;display="Cache";wipeingui;settingsstorage
 /cust			ext4	/dev/block/platform/hi_mci.0/by-name/cust		flags=backup=1;display="Cust"
 /data			f2fs	/dev/block/platform/hi_mci.0/by-name/userdata		flags=backup=1;display="Data";encryptable=footer
 /odm			ext4	/dev/block/platform/hi_mci.0/by-name/odm		flags=backup=1;display="Odm"
