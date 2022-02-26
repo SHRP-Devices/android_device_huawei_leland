@@ -50,6 +50,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd_backlight0/brightness
 TW_EXCLUDE_SUPERSU := true
+TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.gs6/lun.%d/file"
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
 TW_NO_SCREEN_BLANK := true
