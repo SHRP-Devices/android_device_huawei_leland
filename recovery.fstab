@@ -30,5 +30,5 @@
 /vbmeta			emmc	/dev/block/platform/hi_mci.0/by-name/vbmeta		flags=backup=1;display="VBMeta";flashimg
 
 # External storage
-/external_sd		auto	/dev/block/mmcblk1p1  /dev/block/mmcblk1		flags=display="MicroSD Card";storage;wipeingui;removable
-/usb-otg		auto	/dev/block/sda1 /dev/block/sda				flags=display="USB OTG";storage;wipeingui;removable
+/sdcard1		auto	/dev/block/mmcblk1p1  /dev/block/mmcblk1		flags=display="MicroSD Card";storage;wipeingui;removable
+/usb_otg		auto	/dev/block/sda1 /dev/block/sda				flags=display="USB OTG";storage;wipeingui;removable
