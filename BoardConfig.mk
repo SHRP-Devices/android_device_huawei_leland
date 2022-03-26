@@ -1,4 +1,5 @@
 DEVICE_PATH := device/huawei/leland
+ALLOW_MISSING_DEPENDENCIES := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := leland,hi6250
