@@ -4,8 +4,8 @@
 /data			f2fs	/dev/block/platform/hi_mci.0/by-name/userdata		flags=backup=1;display="Data";encryptable=footer
 /odm			ext4	/dev/block/platform/hi_mci.0/by-name/odm		flags=backup=1;display="Odm"
 /product		ext4	/dev/block/platform/hi_mci.0/by-name/product		flags=backup=1;display="Product";wipeingui
-/preavs ext4 /dev/block/platform/hi_mci.0/by-name/preavs    flags=backup=1;display="Preavs";wipeingui
-/preload ext4 /dev/block/platform/hi_mci.0/by-name/preload    flags=backup=1;display="Preload";wipeingui
+/preavs                 ext4    /dev/block/platform/hi_mci.0/by-name/preavs             flags=backup=1;display="Preavs";wipeingui
+/preload                ext4    /dev/block/platform/hi_mci.0/by-name/preload            flags=backup=1;display="Preload";wipeingui
 /system                 ext4	/dev/block/platform/hi_mci.0/by-name/system		flags=backup=1;display="System";wipeingui
 /system_image		emmc	/dev/block/platform/hi_mci.0/by-name/system		flags=backup=1;display="System Image";flashimg
 /vendor			ext4	/dev/block/platform/hi_mci.0/by-name/vendor		flags=backup=1;display="Vendor";wipeingui
