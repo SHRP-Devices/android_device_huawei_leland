@@ -97,7 +97,7 @@ SHRP_DEVICE_CODE := leland
 #SHRP_OFFICIAL := true
 #SHRP_EDL_MODE := 1
 SHRP_INTERNAL := /sdcard
-SHRP_EXTERNAL := /sdcard1
+SHRP_EXTERNAL := /external_sd
 SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 SHRP_FLASH_MAX_BRIGHTNESS := 1
@@ -106,7 +106,6 @@ SHRP_FONP_1 := /sys/class/leds/torch/brightness
 SHRP_REC_TYPE := SAR
 SHRP_REC := /dev/block/bootdevice/by-name/erecovery_ramdisk
 SHRP_DEVICE_TYPE := A_Only
-SHRP_EXPRESS := true
 SHRP_DARK := true
 
 # Avb
