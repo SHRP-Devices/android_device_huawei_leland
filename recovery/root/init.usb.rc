@@ -19,7 +19,7 @@ on post-fs-data && property:sys.usb.configfs=0
     chmod 0664 /sys/class/android_usb/android0/switch_request
 
 # adbd is controlled via property triggers in init.<platform>.usb.rc
-service adbd /sbin/adbd --root_seclabel=u:r:su:s0
+service adbd /system/bin/adbd --root_seclabel=u:r:su:s0
     class core
     socket adbd stream 660 system system
     disabled
@@ -298,14 +298,14 @@ on property:sys.usb.config=midi,adb && property:sys.usb.configfs=0
 on property:persist.sys.usb.config=*
     setprop sys.usb.config ${persist.sys.usb.config}
 
-service hdbd /sbin/hdbd --root_seclabel=u:r:su:s0
+service hdbd /system/bin/hdbd --root_seclabel=u:r:su:s0
     class core
     socket hdbd stream 660 system system
     disabled
     seclabel u:r:adbd:s0
 
 # /* to process the usb port switch uevent in charger mode */
-service hw_ueventd /sbin/hw_ueventd
+service hw_ueventd /system/bin/hw_ueventd
     class main
 	seclabel u:r:hw_ueventd:s0
 

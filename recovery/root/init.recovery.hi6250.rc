@@ -3,12 +3,12 @@ import /init.recovery.hi6250.usb.rc
 on fs
     start fixlinks
 
-service fixlinks /sbin/fixlinks.sh
+service fixlinks /system/bin/fixlinks.sh
     oneshot
     disabled
     seclabel u:r:recovery:s0
 
-service oeminfo_nvm /sbin/true
+service oeminfo_nvm /system/bin/true
     disabled
 
 on boot
