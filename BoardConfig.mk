@@ -50,7 +50,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 612368384
 
 # System as root
 #BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-BOARD_ROOT_EXTRA_FOLDERS := cache d hw_odm modem_log preload sec_storage splash2 preavs
+BOARD_ROOT_EXTRA_FOLDERS := d hw_odm twres
 
 # File System
 TARGET_EXFAT_DRIVER := exfat
