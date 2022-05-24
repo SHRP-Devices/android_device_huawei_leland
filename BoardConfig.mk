@@ -96,6 +96,7 @@ SHRP_MAINTAINER := rxuglr
 SHRP_DEVICE_CODE := leland
 #SHRP_OFFICIAL := true
 #SHRP_EDL_MODE := 1
+SHRP_EXPRESS := true
 SHRP_INTERNAL := /sdcard
 SHRP_EXTERNAL := /external_sd
 SHRP_OTG := /usb_otg
